@@ -9,3 +9,4 @@ Here we will look how we can run a C# program from command prompt itself.
    - Open CMD
    - Type `csc` and press enter, you will receive something like this
    - ![testing in command prompt](../images/31.PNG)
+5. To run any program write in CMD `csc filename.cs`, this will compile the file `filename.cs` and generate a `filename.exe` file which you can run by simply calling `filename.exe` in the command prompt like any other executable.
