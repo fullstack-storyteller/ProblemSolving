@@ -8,4 +8,4 @@ Here we will look how we can run a C# program from command prompt itself.
 4. Now we are ready to execute any C# program from command prompt
    - Open CMD
    - Type `csc` and press enter, you will receive something like this
-   - ![testing in command prompt](\images\3.png)
+   - ![testing in command prompt](./images/3.png)

@@ -24,4 +24,4 @@ SampleRecursion(parameter){
 - Normal Execution
   ![normal](./images/1.PNG)
 - Recursion Execution
-  ![recursion](./images/2i.PNG)
+  ![recursion](./images/2.PNG)
