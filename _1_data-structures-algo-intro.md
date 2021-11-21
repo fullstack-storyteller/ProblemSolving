@@ -1,6 +1,12 @@
 # Introduction to Data Structures
 
-**Data Structures** is a way of organinsing data so that it can be used (accessed / queried / even updated ) effectively.
+- **Data Structures** is a way of organinsing data so that it can be used (accessed / queried / even updated) effectively.
+
+- They are esential ingredients in creating fast and powerful algorithms.
+
+- They help manage and organise data.
+
+- They make code cleaner and easier to understand
 
 ## Types of Data Structures
 
