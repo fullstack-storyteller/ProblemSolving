@@ -22,10 +22,3 @@ The interface does not give any specific details about how something should be i
 | QUEUE             | Linked List Based queue, Array based queue, stack based queue |
 | MAP               | Tree Map, Hash Map / Hash Table                               |
 | Example: Vehicle  | Example: Golf Cart, Bicycle, Smart Car                        |
-
-## Types of Data Structures
-
-| Primitive Data Structures                                                 | Non-Primitive Data Structures                                                                                                                                                                           |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Integer</li><li>Float</li><li>Character</li><li>Boolean</li></ul> | <ol><li>Physical Data Structure:<ul><li>Array</li><li>Linked List</li></ul></li><li>Logical Data Structure:<ul><li>Stack</li><li>Queue</li><li>Tree</li><li>Graph</li></ul></li></ol>                   |
-| Provided by the programming language itself.                              | The physical Data structure are implemented standalone and are physically present in the RAM. <hr/> The Logical data structures are dependent upon the physical data structure for their implementation |
