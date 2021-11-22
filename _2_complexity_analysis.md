@@ -68,7 +68,8 @@ while  i < n Do
     i = i + 3
 
 // f(n) = n/3 , i.e. how many times the loop is going to run? untill the value of i becomes n, so the loop will run n times
-// n = nth number of the arithmetic progression with first element being i = 0, difference d = 3, nth number = first number + (number of times - 1)*d => n = 0 + (t-1)*3 => t = (n/3) + 1
+// n = nth number of the arithmetic progression with first element being i = 0, difference d = 3, nth number = first number + (number of times, t - 1)*d
+// => n = 0 + (t-1)*3 => t = (n/3) + 1
 // hence, f(n) = (n/3) + 1 , or n/3 for simplicity
 // That's why, O(f(n)) = O(n)
 ```
