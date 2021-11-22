@@ -37,7 +37,7 @@ Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
 
 ### Some more examples
 
-- The following run in constant time: O(1). This is because both of the below code is independent of the number of input n
+- **The following run in constant time: O(1).** This is because both of the below code is independent of the number of input n
 
 ```test
 a := 1
@@ -51,7 +51,7 @@ while  i < 11 Do
     i = i + 1
 ```
 
-- The following run in linear time: O(n)
+- **The following run in linear time: O(n)**
 
 ```test
 i := 0
@@ -74,7 +74,7 @@ while  i < n Do
 // That's why, O(f(n)) = O(n)
 ```
 
-- The following run in quadratic time: O(n^2)
+- **The following run in quadratic time: O(n^2)**
 
 ```test
 for(i := 0 ; i < n ; i := i + 1)
@@ -101,7 +101,22 @@ for(i := 0 ; i < n ; i := i + 1)
 // That means O(f(n)) = O(n^2)
 ```
 
-- The following run in logarithmic time: O(log(n))
+````test
+i := 0
+while i < n do
+    j = 0
+    while j < 3n do
+        j = j + 1
+    j = 0
+    while j < 2n do
+        j = j + 1
+    i = i + 1
+
+// f(n) = n * (3n + 2n) = 5n^2
+// this means O(f(n)) = O(n^2)
+```
+
+- **The following run in logarithmic time: O(log(n))**
 
   > Suppose we have a sorted array and we want to find the index of a particular value in the array, if it exists. What is the time complexity of the following algorithm?
 
@@ -134,5 +149,5 @@ for(i := 0 ; i < n ; i := i + 1)
                        => k = (log(n)/log(2)) +1
                        since, log(2) = 1 as base of log is 2
                        => k = log(n) + 1
-                       Total number of iteration = k = log(n) which is O(log(n))
-  ```
+                       Total number of iteration, i.e. the time complexity = k = log(n) which is O(log(n))
+````
