@@ -19,4 +19,4 @@ Let's n - The size of the input complexities ordered in from smallest to largest
 | Logarithmic Time  | O(log(n))      |
 | Linear Time       | O(n)           |
 | Linearithmic Time | O(nlog(n))     |
-| Quadric Time      | O(n\^2)        |
+| Quadric Time      | O(n^2)         |
