@@ -37,7 +37,8 @@ Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
 
 ### Some more examples
 
-The following run in constant time: O(1)
+- The following run in constant time: O(1)
+  This is because both of the below code is independent of the number of input n
 
 ```test
 a := 1
