@@ -37,8 +37,7 @@ Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
 
 ### Some more examples
 
-- The following run in constant time: O(1)
-  This is because both of the below code is independent of the number of input n
+- The following run in constant time: O(1). This is because both of the below code is independent of the number of input n
 
 ```test
 a := 1
@@ -50,4 +49,26 @@ c := a + 5*b
 i := 0
 while  i < 11 Do
     i = i + 1
+```
+
+- The following run in linear time: O(n)
+
+```test
+i := 0
+while i < n do
+    i = i + 1
+
+// f(n) = n , i.e. how many times the loop is going to run? untill the value of i becomes n, so the loop will run n times
+// O(f(n)) = O(n)
+```
+
+```test
+i := 0
+while  i < n Do
+    i = i + 3
+
+// f(n) = n/3 , i.e. how many times the loop is going to run? untill the value of i becomes n, so the loop will run n times
+// n = nth number of the arithmetic progression with first element being i = 0, difference d = 3, nth number = first number + (number of times - 1)*d => n = 0 + (t-1)*3 => t = (n/3) + 1
+// hence, f(n) = (n/3) + 1 , or n/3 for simplicity
+// That's why, O(f(n)) = O(n)
 ```
