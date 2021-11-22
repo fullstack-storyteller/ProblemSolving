@@ -114,6 +114,8 @@ while i < n do
 
 // f(n) = n * (3n + 2n) = 5n^2
 // this means O(f(n)) = O(n^2)
+
+NOTE: Multiply loop at different levels, add loops in the same levels
 ```
 
 - **The following run in logarithmic time: O(log(n))**
@@ -151,3 +153,21 @@ while i < n do
                        => k = log(n) + 1
                        Total number of iteration, i.e. the time complexity = k = log(n) which is O(log(n))
 ````
+
+- **The following run in biquadratic time: O(n^4)**
+
+```test
+i := 0
+while i < 3*n do
+    j := 10
+    while j <= 50 do
+        j = j + 1
+    j = 0
+    while j < n*n*n do
+        j = j + 2
+    i = i + 1
+
+// f(n) = 3n*(40 + n^3 / 2)
+// f(n) = 120n + (3n^4)/2
+// hence O(f(n)) = O(n^4)
+```
