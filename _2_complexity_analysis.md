@@ -37,8 +37,7 @@ Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
 
 ### Some more examples
 
-- The following run in constant time: O(1)
-  |
+The following run in constant time: O(1)
 
 ```test
 a := 1
@@ -46,12 +45,8 @@ b := 2
 c := a + 5*b
 ```
 
-|
-
 ```test
 i := 0
 while  i < 11 Do
     i = i + 1
 ```
-
-|
