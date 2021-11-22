@@ -100,3 +100,39 @@ for(i := 0 ; i < n ; i := i + 1)
 // f(n) = n^2/2 + n/2
 // That means O(f(n)) = O(n^2)
 ```
+
+- The following run in logarithmic time: O(log(n))
+
+  > Suppose we have a sorted array and we want to find the index of a particular value in the array, if it exists. What is the time complexity of the following algorithm?
+
+  ```test
+  low := 0
+  high := n-1
+  while( low <= high) do
+    mid :=(low + high) / 2
+
+    if array[mid] == value: return mid
+    if array[mid] < value: low := mid + 1
+    else high := mid - 1
+  return -1 // value not found
+
+  // What happens here: For every iteration, we are reducing the number of elements in question by half.
+  1st iteration ---- n elements
+  2nd iteration ---- n/2 elements
+  3rd iteration ---- n/4 elements
+  4rth iteration ---- n/8 elements
+  .
+  .
+  .
+  kth iteration ---- n/2^(k-1) elements
+
+  Now we know that the algorithm will stop when the element is found, that exactly one elements remains
+
+  Hence, n/2^(k-1) = 1 => log(n/2^(k-1)) = log(1)
+                       => log(n) - log(2^(k-1)) = 0
+                       => log(n) = (k-1)log(2)
+                       => k = (log(n)/log(2)) +1
+                       since, log(2) = 1 as base of log is 2
+                       => k = log(n) + 1
+                       Total number of iteration = k = log(n) which is O(log(n))
+  ```
