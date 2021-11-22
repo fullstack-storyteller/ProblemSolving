@@ -171,3 +171,18 @@ while i < 3*n do
 // f(n) = 120n + (3n^4)/2
 // hence O(f(n)) = O(n^4)
 ```
+
+## Finally
+
+There are some more common examples shown below:
+
+| Example                                                 | Big-O notation |
+| ------------------------------------------------------- | -------------- |
+| Finding all subsets of a set                            | O(2^n)         |
+| Finding all permutations of a string                    | O(n!)          |
+| Sorting using mergesort                                 | O(nlog(n))     |
+| Iterating over all the cells in a matrix of size n by m | O(nm)          |
+
+**NOTE:**
+
+You must dereive each of the above given Big-O notations for better understanding.
