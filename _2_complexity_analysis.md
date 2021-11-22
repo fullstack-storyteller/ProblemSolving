@@ -20,3 +20,6 @@ Let's n - The size of the input complexities ordered in from smallest to largest
 | Linear Time       | O(n)           |
 | Linearithmic Time | O(nlog(n))     |
 | Quadric Time      | O(n^2)         |
+| Cubic Time        | O(n^3)         |
+| Exponential Time  | O(b^n), b > 1  |
+| Factorial Time    | O(n!)          |
