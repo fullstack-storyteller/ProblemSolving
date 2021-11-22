@@ -32,4 +32,5 @@ Let's n - The size of the input complexities ordered in from smallest to largest
 Let f be a function that describes the running time of a particular algorithm for an input of size n:
 
 Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
+
 => O(f(n)) = O(n^3)
