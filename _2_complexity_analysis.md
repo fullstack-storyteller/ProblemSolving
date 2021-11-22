@@ -185,4 +185,4 @@ There are some more common examples shown below:
 
 **NOTE:**
 
-You must dereive each of the above given Big-O notations for better understanding.
+You must derive each of the above given Big-O notations for better understanding.
