@@ -13,16 +13,16 @@ There are other notations (Big-Omega, Big-Theta) too, but we are only interested
 
 Let's n - The size of the input complexities ordered in from smallest to largest.
 
-| Name              | Big-O Notation |
-| ----------------- | -------------- |
-| Constant Time     | O(1)           |
-| Logarithmic Time  | O(log(n))      |
-| Linear Time       | O(n)           |
-| Linearithmic Time | O(nlog(n))     |
-| Quadratic Time    | O(n^2)         |
-| Cubic Time        | O(n^3)         |
-| Exponential Time  | O(b^n), b > 1  |
-| Factorial Time    | O(n!)          |
+| Name              | Big-O Notation   |
+| ----------------- | ---------------- |
+| Constant Time     | O(1)             |
+| Logarithmic Time  | O(log(n))        |
+| Linear Time       | O(n)             |
+| Linearithmic Time | O(nlog(n))       |
+| Quadratic Time    | O(n<sup>2</sup>) |
+| Cubic Time        | O(n<sup>3</sup>) |
+| Exponential Time  | O(b^n), b > 1    |
+| Factorial Time    | O(n!)            |
 
 ## Big-O Properties
 
@@ -31,9 +31,9 @@ Let's n - The size of the input complexities ordered in from smallest to largest
 
 Let f be a function that describes the running time of a particular algorithm for an input of size n:
 
-Lets say, f(n) = 7log(n^3) + 15n^2 + 2n^3 + 8
+Lets say, f(n) = 7log(n<sup>3</sup>) + 15n<sup>2</sup> + 2n<sup>3</sup> + 8
 
-=> O(f(n)) = O(n^3)
+=> O(f(n)) = O(n<sup>3</sup>)
 
 ### Some more examples
 
@@ -74,7 +74,7 @@ while  i < n Do
 // That's why, O(f(n)) = O(n)
 ```
 
-- **The following run in quadratic time: O(n^2)**
+- **The following run in quadratic time: O(n<sup>2</sup>)**
 
 ```test
 for(i := 0 ; i < n ; i := i + 1)
@@ -84,7 +84,7 @@ for(i := 0 ; i < n ; i := i + 1)
 // f(n) = total number of time s will execute or the time complexity
 //      = n * n
 //      = n^2
-// Hence, f(n) = n^2
+// Hence, f(n) = n<sup>2</sup>
 // that's why O(f(n))=O(n^2)
 
 ```
@@ -176,12 +176,12 @@ while i < 3*n do
 
 There are some more common examples shown below:
 
-| Example                                                 | Big-O notation |
-| ------------------------------------------------------- | -------------- |
-| Finding all subsets of a set                            | O(2^n)         |
-| Finding all permutations of a string                    | O(n!)          |
-| Sorting using mergesort                                 | O(nlog(n))     |
-| Iterating over all the cells in a matrix of size n by m | O(nm)          |
+| Example                                                 | Big-O notation  |
+| ------------------------------------------------------- | --------------- |
+| Finding all subsets of a set                            | O(2<sup>n<sup>) |
+| Finding all permutations of a string                    | O(n!)           |
+| Sorting using mergesort                                 | O(nlog(n))      |
+| Iterating over all the cells in a matrix of size n by m | O(nm)           |
 
 **NOTE:**
 
