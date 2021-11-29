@@ -7,3 +7,5 @@ For a given set S = {a, b, c}, the power **P(S)** set is a set which contains al
 P(S) = {{}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
 
 General rule is that for a given Set with n distinct element, the power set contains 2<sup>n</sup> elements. Hence, total numbers of elements in S = 3, Total numbers of elements in P(S) = 8 (including the empty elements)
+
+P(S) = <sup>n</sup>C<sub>0</sub>

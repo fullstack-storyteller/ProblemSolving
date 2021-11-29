@@ -84,7 +84,7 @@ for(i := 0 ; i < n ; i := i + 1)
 // f(n) = total number of time s will execute or the time complexity
 //      = n * n
 //      = n^2
-// Hence, f(n) = n<sup>2</sup>
+// Hence, f(n) = n^2
 // that's why O(f(n))=O(n^2)
 
 ```
@@ -154,7 +154,7 @@ NOTE: Multiply loop at different levels, add loops in the same levels
                        Total number of iteration, i.e. the time complexity = k = log(n) which is O(log(n))
 ````
 
-- **The following run in biquadratic time: O(n^4)**
+- **The following run in biquadratic time: O(n<sup>4</sup>)**
 
 ```test
 i := 0
