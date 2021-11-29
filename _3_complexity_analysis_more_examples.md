@@ -8,4 +8,12 @@ P(S) = {{}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
 
 General rule is that for a given Set with n distinct element, the power set contains 2<sup>n</sup> elements. Hence, total numbers of elements in S = 3, Total numbers of elements in P(S) = 8 (including the empty elements)
 
-P(S) = <sup>n</sup>C<sub>0</sub>
+The formula for Power Set of a Set S with n distinct elements is something like the below:
+
+P(S) = <sup>n</sup>C<sub>0</sub> + <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>2</sub> + .... + <sup>n</sup>C<sub>n</sub>
+
+Hence, for S = {a, b, c},
+
+P(S) = <sup>3</sup>C<sub>0</sub> + <sup>3</sup>C<sub>1</sub> + <sup>3</sup>C<sub>2</sub> + <sup>3</sup>C<sub>3</sub>
+= 1 + 3 + 3 + 1
+= 8
