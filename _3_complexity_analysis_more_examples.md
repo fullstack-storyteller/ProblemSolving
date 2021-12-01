@@ -17,3 +17,9 @@ Hence, for S = {a, b, c},
 P(S) = <sup>3</sup>C<sub>0</sub> + <sup>3</sup>C<sub>1</sub> + <sup>3</sup>C<sub>2</sub> + <sup>3</sup>C<sub>3</sub>
 = 1 + 3 + 3 + 1
 = 8
+
+There are two approaches to find the find the total number of elements in the power set of a set S
+
+- Iterative Approach
+
+- Backtracking Approach
