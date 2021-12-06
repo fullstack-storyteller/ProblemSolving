@@ -26,16 +26,16 @@ There are two approaches to find the find the total number of elements in the po
 
   Let's suppose a set S ={a, b, c}. So if we are making a set of all the possible sets of the set S, then for any set a, b, or c or any combination of item will present. Hence we can have only two states of a, b, c, i.e., either they are present (denoted by 1) or they are absent(denoted by 0). The combination of all the states of a, b, and c will be as the given table.
 
-  | #   | Set Element a | Set Element b | Set Element c | Actual Set       |
-  | --- | ------------- | ------------- | ------------- | ---------------- |
-  | 1   | 0             | 0             | 0             | {}, or Empty Set |
-  | 2   | 0             | 0             | 1             | {c}              |
-  | 3   | 0             | 1             | 0             | {b}              |
-  | 4   | 0             | 1             | 1             | {b, c}           |
-  | 5   | 1             | 0             | 0             | {a}              |
-  | 6   | 1             | 0             | 1             | {a, c}           |
-  | 7   | 1             | 1             | 0             | {a, b}           |
-  | 8   | 1             | 1             | 1             | {a, b, c}        |
+  | Counter Value | Set Element a | Set Element b | Set Element c | Actual Set       |
+  | ------------- | ------------- | ------------- | ------------- | ---------------- |
+  | 0             | 0             | 0             | 0             | {}, or Empty Set |
+  | 1             | 0             | 0             | 1             | {c}              |
+  | 2             | 0             | 1             | 0             | {b}              |
+  | 3             | 0             | 1             | 1             | {b, c}           |
+  | 4             | 1             | 0             | 0             | {a}              |
+  | 5             | 1             | 0             | 1             | {a, c}           |
+  | 6             | 1             | 1             | 0             | {a, b}           |
+  | 7             | 1             | 1             | 1             | {a, b, c}        |
 
   ```Algorithm
   Input: Set[], set_size
