@@ -22,6 +22,47 @@ There are two approaches to find the find the total number of elements in the po
 
 - Backtracking Approach
 
+  - Algorithm Analysis
+
+  ```C#
+  using System;
+  using System.Collections.Generic;
+  namespace ComplexityAnalysisExample_1_PowerSetBacktracking
+  {
+    class Program
+    {
+        static void PrintSet(Stack<int> set)
+        {
+            foreach (int element in set)
+                Console.Write("{0} ", element);
+            Console.WriteLine();
+        }
+        static void SubsetUtility( int[] set, Stack<int> subset, int index)
+        {
+            PrintSet(subset);
+            for(int i=index; i< set.Length; i++)
+            {
+                subset.Push(set[i]);
+                SubsetUtility(set, subset, i + 1);
+                subset.Pop();
+            }
+
+            return;
+        }
+        static void Main(string[] args)
+        {
+            int index = 0;
+            int[] set = {4, 3, 1, 2, 6 };
+            Stack<int> subset = new Stack<int>(3);
+
+            SubsetUtility(set, subset, index);
+            Console.ReadKey();
+        }
+    }
+  }
+
+  ```
+
 - Iterative Approach (For this example its not the best way to understand it. but I've included it for completeness)
 
   - Algorithm Analysis

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexityAnalysisExample_1_PowerSetBacktracking", "ComplexityAnalysisExample_1_PowerSetBacktracking.csproj", "{64E89AF3-961B-40B5-AAA5-A9B31F25169D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E89AF3-961B-40B5-AAA5-A9B31F25169D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E89AF3-961B-40B5-AAA5-A9B31F25169D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E89AF3-961B-40B5-AAA5-A9B31F25169D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E89AF3-961B-40B5-AAA5-A9B31F25169D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACF7276E-7B03-4801-9D76-53B38BF2EE7A}
+	EndGlobalSection
+EndGlobal
