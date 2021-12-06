@@ -68,6 +68,7 @@ There are two approaches to find the find the total number of elements in the po
 - Iterative Approach (For this example its not the best way to understand it. but I've included it for completeness)
 
   - Algorithm Analysis
+  - TODO: Implement this in your program C# also. So that you see with your own eyes
 
   Let's suppose a set S ={a, b, c}. So if we are making a set of all the possible sets of the set S, then for any set a, b, or c or any combination of item will present. Hence we can have only two states of a, b, c, i.e., either they are present (denoted by 1) or they are absent(denoted by 0). The combination of all the states of a, b, and c will be as the given table.
 
