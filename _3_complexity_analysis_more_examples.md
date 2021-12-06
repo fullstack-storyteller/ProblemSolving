@@ -22,4 +22,18 @@ There are two approaches to find the find the total number of elements in the po
 
 - Iterative Approach
 
+  -
+
+  ```Algorithm
+  Input: Set[], set_size
+    1. Get the size of power set
+    powet_set_size = pow(2, set_size)
+    2. Loop for counter from 0 to pow_set_size
+     (a) Loop for i = 0 to set_size
+          (i) If ith bit in counter is set
+               Print ith element from set for this subset
+     (b) Print separator for subsets i.e., newline
+
+  ```
+
 - Backtracking Approach
