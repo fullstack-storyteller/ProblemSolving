@@ -23,6 +23,8 @@ There are two approaches to find the find the total number of elements in the po
 - Backtracking Approach
 
   - Algorithm Analysis
+    - Dry run pending
+    - Analysis pending
 
   ```C#
   using System;
