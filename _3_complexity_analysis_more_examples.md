@@ -22,7 +22,20 @@ There are two approaches to find the find the total number of elements in the po
 
 - Iterative Approach
 
-  -
+  - Algorithm Analysis
+
+  Let's suppose a set S ={a, b, c}. So if we are making a set of all the possible sets of the set S, then for any set a, b, or c or any combination of item will present. Hence we can have only two states of a, b, c, i.e., either they are present (denoted by 1) or they are absent(denoted by 0). The combination of all the states of a, b, and c will be as the given table.
+
+  | #   | Set Element a | Set Element b | Set Element c | Actual Set       |
+  | --- | ------------- | ------------- | ------------- | ---------------- |
+  | 1   | 0             | 0             | 0             | {}, or Empty Set |
+  | 2   | 0             | 0             | 1             | {c}              |
+  | 3   | 0             | 1             | 0             | {b}              |
+  | 4   | 0             | 1             | 1             | {b, c}           |
+  | 5   | 1             | 0             | 0             | {a}              |
+  | 6   | 1             | 0             | 1             | {a, c}           |
+  | 7   | 1             | 1             | 0             | {a, b}           |
+  | 8   | 1             | 1             | 1             | {a, b, c}        |
 
   ```Algorithm
   Input: Set[], set_size
@@ -33,6 +46,50 @@ There are two approaches to find the find the total number of elements in the po
           (i) If ith bit in counter is set
                Print ith element from set for this subset
      (b) Print separator for subsets i.e., newline
+
+  ```
+
+  ```C#
+    using System;
+
+    class GFG {
+
+    static void printPowerSet(char []set, int set_size)
+    {
+        /*set_size of power set of a set
+        with set_size n is (2**n -1)*/
+        uint pow_set_size =
+              (uint)Math.Pow(2, set_size);
+        int counter, j;
+
+        /*Run from counter 000..0 to 111..1*/
+        for(counter = 0; counter < pow_set_size; counter++)
+        {
+            for(j = 0; j < set_size; j++)
+            {
+                /* Check if jth bit in the
+                counter is set If set then
+                print jth element from set */
+                if((counter & (1 << j)) > 0)
+                    Console.Write(set[j]);
+                    //NOTE: by set means saying Non Zero.
+                    //so not only the counter needs to be true or non zero but also the
+                    //the digit 1 in the binary representation of counter should be at the right place,
+                    //hence 1<<j is needed. It will ensure that we can perform '&' operation correctly
+
+            }
+
+            Console.WriteLine();
+        }
+    }
+
+    // Driver program to test printPowerSet
+    public static void Main ()
+    {
+        char []set = {'a', 'b', 'c'};
+        printPowerSet(set, 3);
+    }
+  }
 
   ```
 
