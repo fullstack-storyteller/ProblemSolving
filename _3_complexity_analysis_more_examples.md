@@ -20,7 +20,9 @@ P(S) = <sup>3</sup>C<sub>0</sub> + <sup>3</sup>C<sub>1</sub> + <sup>3</sup>C<sub
 
 There are two approaches to find the find the total number of elements in the power set of a set S
 
-- Iterative Approach
+- Backtracking Approach
+
+- Iterative Approach (For this example its not the best way to understand it. but I've included it for completeness)
 
   - Algorithm Analysis
 
@@ -94,4 +96,4 @@ There are two approaches to find the find the total number of elements in the po
 
   ```
 
-- Backtracking Approach
+  ![Dry run](../images/2.jpg)
