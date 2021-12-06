@@ -76,6 +76,7 @@ There are two approaches to find the find the total number of elements in the po
                     //so not only the counter needs to be true or non zero but also the
                     //the digit 1 in the binary representation of counter should be at the right place,
                     //hence 1<<j is needed. It will ensure that we can perform '&' operation correctly
+                    //we are controlling the position of 1 in (1<<j) programmatically
 
             }
 
