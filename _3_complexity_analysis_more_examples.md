@@ -96,4 +96,4 @@ There are two approaches to find the find the total number of elements in the po
 
   ```
 
-  ![Dry run](./images/22.jpg)
+  ![Dry run](./images/2.jpg)
