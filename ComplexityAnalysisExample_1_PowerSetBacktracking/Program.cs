@@ -19,7 +19,7 @@ namespace ComplexityAnalysisExample_1_PowerSetBacktracking
             {
                 subset.Push(set[i]);
                 SubsetUtility(set, subset, i + 1);
-                subset.Pop();
+                Console.WriteLine("Popped: "+subset.Pop());
             }
             
             return;
@@ -27,8 +27,8 @@ namespace ComplexityAnalysisExample_1_PowerSetBacktracking
         static void Main(string[] args)
         {
             int index = 0;
-            int[] set = {3,2, 1};
-            Stack<int> subset = new Stack<int>(3);
+            int[] set = {1,2 ,3, 4};
+            Stack<int> subset = new Stack<int>(set.Length);
 
             SubsetUtility(set, subset, index);
             Console.ReadKey();

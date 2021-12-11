@@ -46,7 +46,7 @@ There are two approaches to find the find the total number of elements in the po
             {
                 subset.Push(set[i]);
                 SubsetUtility(set, subset, i + 1);
-                subset.Pop();
+                Console.WriteLine("Popped: "+subset.Pop());
             }
 
             return;
@@ -54,7 +54,7 @@ There are two approaches to find the find the total number of elements in the po
         static void Main(string[] args)
         {
             int index = 0;
-            int[] set = {4, 3, 1, 2, 6 };
+            int[] set = {1, 2, 3, 4};
             Stack<int> subset = new Stack<int>(3);
 
             SubsetUtility(set, subset, index);
