@@ -176,12 +176,12 @@ while i < 3*n do
 
 There are some more common examples shown below:
 
-| Example                                                 | Big-O notation  |
-| ------------------------------------------------------- | --------------- |
-| Finding all subsets of a set                            | O(2<sup>n<sup>) |
-| Finding all permutations of a string                    | O(n!)           |
-| Sorting using mergesort                                 | O(nlog(n))      |
-| Iterating over all the cells in a matrix of size n by m | O(nm)           |
+| Example                                                 | Big-O notation   |
+| ------------------------------------------------------- | ---------------- |
+| Finding all subsets of a set                            | O(2<sup>n</sup>) |
+| Finding all permutations of a string                    | O(n!)            |
+| Sorting using mergesort                                 | O(nlog(n))       |
+| Iterating over all the cells in a matrix of size n by m | O(nm)            |
 
 **NOTE:**
 
