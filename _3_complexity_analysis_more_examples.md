@@ -18,7 +18,7 @@ P(S) = <sup>3</sup>C<sub>0</sub> + <sup>3</sup>C<sub>1</sub> + <sup>3</sup>C<sub
 = 1 + 3 + 3 + 1
 = 8
 
-There are two approaches to find the find the total number of elements in the power set of a set S. In both the cases the time complexity will be O(n2<sup>n</sup>)
+There are two approaches to find the find the total number of elements in the power set of a set S. In both the cases the time complexity will be O(n2<sup>n</sup>) and space complexity will be O(1) in interative but O(n) in recurssive.
 
 - Backtracking Approach
 
