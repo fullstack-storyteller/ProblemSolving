@@ -41,3 +41,23 @@ A.add(-7) => A = [34, 4, -7]
 A.add(34) => A = [34, 4, -7, 34]
 
 A.remove(4) => A = [34, -7, 34]
+
+## Implement Dynamic Array
+
+We can implement dynamic array using static array
+
+1. Create a static array with an initial capacity, say 2
+2. Add elements to the underlying static array keeping track of the number of elements.
+3. If adding another element will exceed the capacity, then create a new static array with twice the capcacity and copy yhe original elements into it.
+
+array [,] Size=2
+
+Add 7, array [7, ] Size=2
+
+Add 9, array [7, 9] Size=2
+
+Add 12, array [7, 9, 12, ] size= 4
+
+Add -1, arracy [7, 9, 12, -1] size=4
+
+Similary, we can proceed to any number of elements
