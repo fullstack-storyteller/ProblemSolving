@@ -21,3 +21,11 @@ They have contiguous chunks of memory addresses. Some usage examples include:
 | Insertion | N/A          | O(n)          |
 | Appending | N/A          | O(1)          |
 | Deletion  | N/A          | O(n)          |
+
+A = [44, 12, -5, 17, 6, 0, 3, 9, 100]
+
+Indexes = 0, 1, 2, 3, 4, 5, 6, 7, 8
+
+A[0] = 44, A[1] = 12 and A[7] = 100
+
+But A[9] = index out of bounds
