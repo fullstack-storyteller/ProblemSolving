@@ -61,3 +61,5 @@ Add 12, array [7, 9, 12, ] size= 4
 Add -1, arracy [7, 9, 12, -1] size=4
 
 Similary, we can proceed to any number of elements
+
+## Dynamic Array Source Code
